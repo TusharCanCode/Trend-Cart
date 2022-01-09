@@ -1,0 +1,21 @@
+{
+  "name": "trend-cart",
+  "version": "1.0.0",
+  "description": "This is the package for an online e-commerce website Trend-Cart",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Tushar Bharti",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.195.0"
+  }
+}
